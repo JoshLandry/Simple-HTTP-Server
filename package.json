@@ -1,0 +1,32 @@
+{
+  "name": "SimpleHTTPServer",
+  "version": "0.1.0",
+  "description": "A simple HTTP server with greet and time routes.",
+  "main": "httpserver.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {    
+    "chai-http": "^1.0.0",
+    "chai": "^1.10.0",
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-jshint": "^0.11.0",
+    "grunt-simple-mocha": "^0.4.0"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JoshLandry/Simple-HTTP-Server.git"
+  },
+  "author": "Joshua Landry",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoshLandry/Simple-HTTP-Server/issues"
+  },
+  "homepage": "https://github.com/JoshLandry/Simple-HTTP-Server"
+}
